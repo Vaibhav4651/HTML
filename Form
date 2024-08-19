@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Form-5</title>
+
+        <style>
+            body{
+                background-image: linear-gradient(90deg,#00aaff,#ffffff);
+            }
+            .main{
+                font-family: sans-serif;
+            }
+            .d1{
+                background-color: white;
+                height: 400px;
+                width: 450px;
+                border: 2px solid;
+                margin: 0px auto;
+                margin-top: 150px;
+                border-radius: 30px;
+                box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+            }
+            #h1{
+                text-align: center;
+                margin-top: 70px;
+            }
+            #p1{
+                margin-left: 100px;
+            }
+            .i1{
+                height: 35px;
+                width: 260px;
+                margin-left: 100px;
+                border-radius: 10px;
+                text-align: center;
+            }
+            .i2{
+                background-color: #00aaff;
+                color: white;
+                height: 35px;
+                width: 270px;
+                margin-left: 100px;
+                border-radius: 10px;
+            }
+            #p2{
+                margin-left: 120px; 
+            }
+        </style>
+    </head>
+
+    <body>
+        <div class="main">
+            <div class="d1">
+                <h3 id="h1">LOGIN</h3>
+                <p id="p1">Please enter your credentials to login.</p>
+                <input type="text" placeholder="Username" class="i1"><br><br>
+                <input type="password" placeholder="Password" class="i1" ><br><br>
+                <input type="button" value="LOGIN" class="i2">
+                <p id="p2">Not registered?<a href="create an account" style="color: #00aaff;">create an account</a></p>
+            </div>
+        </div>
+    </body>
+</html>
