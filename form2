@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Form-3</title>
+
+        <style>
+
+            body{
+                background-image: linear-gradient(90deg ,rgb(74, 74, 222),rgb(222, 95, 222) );
+            }
+            .main{
+                border: 2px solid;
+                width: 25%;
+                height: 40%;
+                border-radius: 10px;
+                margin: 0px auto;
+                margin-top: 10%;
+                background-color: white;
+            }
+            .d1{
+                font-size: 45px;
+                text-align: center;
+                margin-top: 10px;
+                margin-bottom: 10px;
+            }
+            /*hr{
+                border: 1px solid;
+            }*/
+            .d2{
+                margin-left: 50px;
+                margin-top: 40px;
+            }
+            .i1{
+                width: 80%;
+                border-top: none;
+                border-left: none;
+                border-right: none;
+                font-size: 18px;
+                padding-bottom: 5px;
+                font-family: serif;
+            }
+            .d3{
+                margin-left: 50px;
+                margin-top: 40px;
+            }
+            .d4{
+                margin-left: 50px;
+                margin-top: 25px;
+                font-family: serif;
+            }
+            .i2{
+                margin-left: 50px;
+                margin-top: 25px;
+                height: 40px;
+                width: 275px;
+                border-radius: 20px;
+                font-weight: bold;
+                font-size: 20px;
+                cursor: pointer;
+            }
+            .d5{
+                margin-top: 30px;
+                padding-bottom: 30px;
+                text-align: center;
+            }
+        </style>
+    </head>
+
+    <body>
+        <form>
+        <div class="main">
+            <div class="d1">
+                <header>Login</header><hr>
+            </div>
+            <div class="d2">
+                <input type="text" placeholder="Username" class="i1">
+            </div>
+            <div class="d3">
+                <input type="password" placeholder="Password" class="i1">
+            </div>
+            <div class="d4">
+                <a href="#" style="display: contents;">Forget Password?</a>
+            </div>
+            <div>
+                <input type="button" value="Login" class="i2">
+            </div>
+            <div class="d5">
+                Not a member?<a href="#" style="display: contents;">Signup</a>
+            </div>
+        </div>
+    </form>
+    </body>
+</html>
